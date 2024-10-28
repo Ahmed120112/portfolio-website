@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio website built with React and React-Bootstrap. It showcases the skills, projects, and certifications of a Front-End Developer and UI/UX enthusiast. The site includes dark mode, Arabic/English language support, and links to contact information and social media.
 
-## Available Scripts
+Table of Contents
 
-In the project directory, you can run:
+	•	Demo
+	•	Features
+	•	Technologies Used
+	•	Installation
+	•	Usage
+	•	Deployment
+	•	Contact
 
-### `npm start`
+Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view a live demo of the portfolio at Vercel Deployment Link (replace with the actual Vercel link).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
 
-### `npm test`
+	•	Dark Mode: Toggle between light and dark themes.
+	•	Bilingual Support: Switch between Arabic and English.
+	•	Skills Section: Showcases developer’s proficiency in various skills.
+	•	Certifications Section: Displays certificates with images and descriptions.
+	•	Projects Section: Highlights notable projects with descriptions and links.
+	•	Contact Section: Provides options for contacting via email, phone, and social media links.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies Used
 
-### `npm run build`
+	•	React: A JavaScript library for building user interfaces.
+	•	React-Bootstrap: Components for React-based Bootstrap styling.
+	•	CSS Animations: Custom animations for a more dynamic UI.
+	•	Vercel: Deployment and hosting platform.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+	1.	Clone this repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/your-username/your-portfolio-repo.git
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+	2.	Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd your-portfolio-repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+	3.	Install the dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+	1.	Run the project locally:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+	2.	Open your browser and visit http://localhost:3000 to view the website.
+	3.	Customize the content in the Home.js file, including personal details, skills, certifications, and projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Deployment
 
-### Advanced Configuration
+Deploying to Vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To deploy this project to Vercel, follow these steps:
 
-### Deployment
+	1.	Install Vercel CLI (optional):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install -g vercel
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+	2.	Login to Vercel:
+
+vercel login
+
+
+	3.	Deploy using Vercel CLI:
+
+vercel
+
+Follow the prompts to configure and deploy the project.
+
+Alternatively, you can deploy via Vercel’s dashboard:
+
+	1.	Go to Vercel Dashboard.
+	2.	Select New Project and link it to your GitHub repository or upload the project folder.
+	3.	Follow the on-screen instructions to complete the deployment.
+
+After deployment, Vercel will provide you with a link to the live site.
+
+Contact
+
+For inquiries or collaborations, feel free to reach out:
+
+	•	Phone: 01113092527
+	•	Email: ahmedb7b72001@gmail.com
+	•	Facebook: Facebook Profile
+	•	Instagram: Instagram Profile
+
+This README provides a detailed overview of the project, along with instructions for installation, usage, and deployment. Be sure to update any placeholder links with actual URLs before sharing.

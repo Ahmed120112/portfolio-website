@@ -1,0 +1,100 @@
+/* تنسيقات صفحة الاتصال */
+.contact-page {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 75px;
+}
+
+.contact-page h1 {
+  font-size: 2.5em;
+  color: #0056b3;
+  margin-bottom: 30px;
+  font-weight: bold;
+  animation: fadeIn 1s ease-out;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+.contact-form button {
+  background-color: #0056b3;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #003f7f;
+}
+
+/* تنسيقات الوضع الليلي */
+body.dark-mode .contact-page {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+body.dark-mode .contact-form {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+body.dark-mode .contact-form .form-label {
+  color: #f1f1f1;
+}
+
+body.dark-mode .contact-form .form-control {
+  background-color: #444;
+  color: #f1f1f1;
+  border-color: #555;
+}
+
+body.dark-mode .contact-form .form-control::placeholder{
+  color: #aaa7a7;
+}
+
+body.dark-mode .contact-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+body.dark-mode .contact-form button {
+  background-color: #007bff;
+}
+
+body.dark-mode .contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
